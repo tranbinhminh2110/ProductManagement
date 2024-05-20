@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_REGISTRY = 'https://index.docker.io/v1/'
-        DOCKER_REPO = 'long2002/lab1'
+        DOCKER_REPO = 'tranbinhminh2110/se162152productmanagement'
     }
 
     stages {
