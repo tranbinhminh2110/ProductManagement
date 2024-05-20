@@ -1,0 +1,14 @@
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\bin\Debug\net6.0\SE162152.ProductManagement.Repo.deps.json
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\bin\Debug\net6.0\SE162152.ProductManagement.Repo.runtimeconfig.json
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\bin\Debug\net6.0\SE162152.ProductManagement.Repo.dll
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\bin\Debug\net6.0\SE162152.ProductManagement.Repo.pdb
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.csproj.AssemblyReference.cache
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.AssemblyInfoInputs.cache
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.AssemblyInfo.cs
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.csproj.CoreCompileInputs.cache
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.dll
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\refint\SE162152.ProductManagement.Repo.dll
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.pdb
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\SE162152.ProductManagement.Repo.genruntimeconfig.cache
+E:\PRN231\Practice\Lab01_ASP.NETCoreWebAPI\SE162152.ProductManagement.Repo\obj\Debug\net6.0\ref\SE162152.ProductManagement.Repo.dll
