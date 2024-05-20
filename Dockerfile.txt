@@ -1,0 +1,31 @@
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+
+
+EXPOSE 8080
+EXPOSE 8081
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /srs
+COPY ["WebApplication1/WebApplication1.csproj" , "WebApplication1/"]
+
+COPY ["Model/Model.csproj" , "Model/"]
+# Khôi phục các phụ thuộc cho tất cả các dự án
+RUN dotnet restore "WebApplication1/WebApplication1.csproj"
+
+# Sao chép toàn bộ mã nguồn vào thư mục làm việc
+COPY . .
+WORKDIR "/srs/WebApplication1"
+RUN dotnet build "WebApplication1.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# Stage 2: Publish the application
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "WebApplication1.csproj" -c $BUILD_CONFIGURATION -o /app/publish
+
+# Stage 3: Create the runtime image
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
