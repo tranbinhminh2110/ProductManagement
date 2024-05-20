@@ -54,7 +54,7 @@ pipeline {
             steps {
                 script {
                     catchError(buildResult: 'FAILURE') {
-                        docker.withRegistry(DOCKER_REGISTRY, 'docker-demo') {
+                        docker.withRegistry(DOCKER_REGISTRY, 'demo-docker') {
                             bat "docker build -t ${DOCKER_REPO} ."
                             bat "docker push ${DOCKER_REPO}"
                         }
